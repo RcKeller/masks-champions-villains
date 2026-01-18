@@ -1,0 +1,50 @@
+{
+  "id": "masks-champions-villains",
+  "title": "Masks: Champions Villains Pack",
+  "description": "Villain NPCs from the Champions collection. Requires the main Masks module.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 13.35,
+    "maximum": 15
+  },
+  "authors": [
+    {
+      "name": "RcKeller",
+      "url": "https://github.com/RcKeller"
+    }
+  ],
+  "packs": [
+    {
+      "name": "champions-villains",
+      "label": "Villains (Champions)",
+      "path": "packs/champions-villains",
+      "type": "Actor",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "masks-newgeneration-unofficial",
+        "type": "module"
+      }
+    ]
+  },
+  "url": "https://github.com/RcKeller/masks-champions-villains",
+  "manifest": "https://github.com/RcKeller/masks-champions-villains/releases/latest/download/module.json",
+  "download": "https://github.com/RcKeller/masks-champions-villains/releases/latest/download/module.zip",
+  "license": "LICENSE",
+  "readme": "README.md"
+}
