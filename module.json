@@ -1,7 +1,7 @@
 {
   "id": "masks-champions-villains",
-  "title": "Masks: Champions Villains Pack",
-  "description": "Villain NPCs from the Champions collection. Requires the main Masks module.",
+  "title": "Masks: Champions & Villains Pack",
+  "description": "Villain NPCs from the Champions collection.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": 13,
