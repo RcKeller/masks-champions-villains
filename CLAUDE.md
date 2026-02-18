@@ -25,8 +25,8 @@ masks-champions-villains/
 
 ```bash
 npm install              # Install dependencies
-npm run pullJSONtoLDB    # JSON → LevelDB (after git pull)
-npm run pushLDBtoJSON    # LevelDB → JSON (for version control)
+npm run packs:to-ldb    # JSON → LevelDB (after git pull)
+npm run packs:to-json   # LevelDB → JSON (for version control)
 ```
 
 **Important:** Foundry must be closed when running pack conversion.
@@ -39,7 +39,7 @@ Images are referenced as: `modules/masks-champions-villains/images/champions-vil
 
 1. Make changes in Foundry
 2. Close Foundry (or go to welcome screen)
-3. Run `npm run pushLDBtoJSON`
+3. Run `npm run packs:to-json`
 4. Commit the JSON changes
 
 ## JSON File Naming

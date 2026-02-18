@@ -32,7 +32,7 @@ jobs:
           npm install
 
       - name: Build compendium packs from JSON
-        run: npm run pullJSONtoLDB
+        run: npm run packs:to-ldb
 
       - name: Extract version from module.json
         id: version

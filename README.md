@@ -33,10 +33,10 @@ This pack contains 137 villain NPCs ready to use in your Masks campaigns, comple
 npm install
 
 # Convert JSON to LevelDB (after git pull)
-npm run pullJSONtoLDB
+npm run packs:to-ldb
 
 # Convert LevelDB to JSON (for version control)
-npm run pushLDBtoJSON
+npm run packs:to-json
 ```
 
 **Important:** Close Foundry before running pack conversion commands.
